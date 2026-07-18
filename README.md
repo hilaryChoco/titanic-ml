@@ -57,8 +57,3 @@ pip install numpy pandas scikit-learn matplotlib seaborn jupyterlab joblib
 # Lancer le notebook
 jupyter lab
 ```
-
-## Auteur
-
-**Hilary** — Étudiante en maîtrise IA, Université Laval  
-GitHub : [@hilaryChoco](https://github.com/hilaryChoco)
