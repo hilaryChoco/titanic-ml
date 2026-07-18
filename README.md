@@ -1,9 +1,9 @@
-# 🚢 Titanic — Prédiction de survie
+# Titanic — Prédiction de survie
 
 Projet de classification binaire pour prédire la survie des passagers du Titanic.
 Réalisé dans le cadre d'un parcours de montée en compétences en Machine Learning.
 
-## 📊 Résultats
+## Résultats
 
 | Métrique | Score |
 |---|---|
@@ -20,7 +20,7 @@ Réalisé dans le cadre d'un parcours de montée en compétences en Machine Lear
 - **scikit-learn** — modélisation (Random Forest)
 - **joblib** — sauvegarde du modèle
 
-## 📁 Structure du projet
+## Structure du projet
 titanic-ml/
 │
 ├── train.csv                      # Dataset d'entraînement (Kaggle)
@@ -28,7 +28,7 @@ titanic-ml/
 ├── random_forest_titanic.pkl      # Modèle sauvegardé
 └── README.md                      # Ce fichier
 
-## 🔄 Étapes du projet
+## Étapes du projet
 
 1. **Exploration des données (EDA)** — dimensions, statistiques, visualisations
 2. **Nettoyage** — valeurs manquantes, encodage des variables catégorielles
@@ -36,13 +36,13 @@ titanic-ml/
 4. **Évaluation** — accuracy, precision, recall, F1-score
 5. **Analyse** — importance des features
 
-## 💡 Points clés
+## Points clés
 
 - Les 3 features les plus prédictives : **Fare**, **Sex**, **Age** (~78% de l'importance totale)
 - Le modèle est meilleur pour prédire les décès (F1: 0.83) que les survivants (F1: 0.75)
 - Pistes d'amélioration : extraction des titres depuis `Name`, feature engineering sur `Ticket`
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 ```bash
 # Cloner le repo
